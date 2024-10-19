@@ -1,0 +1,88 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background-color: aliceblue;
+}
+h1{
+  background-color: rgb(0, 11, 62);
+  color: aliceblue;
+  font-size: 1.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.2em;
+  width: 100%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.choice{
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.choice:hover{
+  background-color: rgb(90, 255, 98);
+  cursor: pointer;
+}
+.choice1{
+  background-color: rgb(141, 0, 0);
+  cursor: pointer;
+}
+.pick_1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+.show{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result{
+  display: flex;
+  gap: 2em;
+  font-size: 2vw;
+  margin-top: 1.5em;
+}
+.play_btn{
+  margin-top: 1em;
+  font-size: 1.4em;
+  border: 1px solid black;
+  background-color: black;
+  color: aliceblue;
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  border-radius: 15px;
+  cursor: default;
+}
+.you{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
