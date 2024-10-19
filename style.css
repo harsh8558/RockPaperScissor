@@ -61,8 +61,8 @@ img{
 .result{
   display: flex;
   gap: 2em;
-  font-size: 2vw;
-  margin-top: 1.5em;
+  font-size: 1.5em;
+  margin-top: 2.5em;
 }
 .play_btn{
   margin-top: 1em;
@@ -85,4 +85,13 @@ img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .choice {
+    width: 25vw; 
+    height: 25vw;
+  }
+  .play_btn{
+    font-size: 1em;
+  }
 }
